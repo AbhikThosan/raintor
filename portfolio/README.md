@@ -52,11 +52,11 @@ Open Your Browser
 Navigate to http://localhost:3000 to see the portfolio in action.
 
 📁 Project Structure
-portfolio/
+Portfolio/
 ├── public/ # Static assets (images, favicon, etc.)
 │ ├── favicon.ico # Favicon for the site
 │ └── images/ # Images used in the portfolio (e.g., project screenshots)
-├── src/ # Source code directory
+├── src/ # Source code directory (optional, depending on setup)
 │ ├── app/ # Next.js App Router pages and layouts
 │ │ ├── layout.tsx # Root layout with Tailwind CSS and metadata
 │ │ ├── page.tsx # Homepage component
@@ -72,7 +72,7 @@ portfolio/
 │ │ ├── experienceInfo.ts # Experience data (e.g., EXPERIENCE array)
 │ │ ├── socialLinks.ts # Social link data (e.g., SOCIALLINK array)
 │ │ └── navItems.ts # Navigation item data (e.g., NAVITEMS array)
-│ ├── hooks/ # Custom hooks
+│ ├── hooks/ # Custom hooks (if any)
 │ │ └── useContactForm.ts # Hook for form handling
 │ ├── styles/ # Additional custom styles (optional)
 │ └── ... # Other utilities or pages
