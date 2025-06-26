@@ -1,7 +1,7 @@
 import React from "react";
 
 interface ButtonWithIconProps {
-  icon: React.ReactElement;
+  icon: React.ReactElement<React.SVGProps<SVGSVGElement>>;
   onClick?: () => void;
   size: number;
   color: string;
@@ -22,7 +22,7 @@ const ButtonWithIcon: React.FC<ButtonWithIconProps> = ({
         className="rounded-full bg-transparent p-[16px]"
       >
         {React.cloneElement(icon, {
-          style: { width: size, height: size, color },
+          style: { width: size, height: size, color } as React.CSSProperties,
         })}
       </span>
       <span

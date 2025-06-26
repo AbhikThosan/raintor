@@ -1,7 +1,7 @@
 import React from "react";
 
 interface IconButtonProps {
-  icon: React.ReactElement;
+  icon: React.ReactElement<React.SVGProps<SVGSVGElement>>;
   onClick?: () => void;
   size: number;
   color: string;
