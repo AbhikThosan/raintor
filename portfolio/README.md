@@ -22,8 +22,6 @@ Visit the live site: [https://portfolio-developme.vercel.app/](https://portfolio
 - ✅ **Mobile-First Responsive Layout** – Optimized for all screen sizes, from mobile to desktop
 - ✅ **Reusable Component Architecture** – Modular components for easy maintenance and scalability
 - ✅ **Smooth Page Transitions** – Enhanced user experience with seamless navigation
-- ✅ **Performance Optimized** – Fast loading times and optimized assets
-- ✅ **SEO Ready** – Built with SEO best practices in mind
 
 ## 📝 Description
 
