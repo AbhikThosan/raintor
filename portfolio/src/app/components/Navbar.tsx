@@ -47,12 +47,17 @@ const Navbar = () => {
           </svg>
         </button>
         {isMenuOpen && (
-          <div className="absolute top-[70px] left-0 w-full bg-[#00000003] p-4 rounded-b-[20px] shadow-md z-10">
+          <div className="absolute top-[70px] left-0 w-full bg-secondary p-4 rounded-b-[20px] shadow-md z-10">
             <div className="flex flex-col items-center gap-4">
               {NAVITEMS.map((item) => (
                 <NavItem key={item.href} text={item.text} href={item.href} />
               ))}
-              <Button text="Start Project" icon={<ArrowRight />} />
+              <Button
+                text="Start Project"
+                icon={<HiOutlineArrowNarrowRight size={26} />}
+                size="48px"
+                border="black"
+              />
             </div>
           </div>
         )}
