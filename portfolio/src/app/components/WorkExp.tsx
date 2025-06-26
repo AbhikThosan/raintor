@@ -9,9 +9,12 @@ import { EXPERIENCE } from "../constants/experienceInfo";
 const WorkExp = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const buttonsRef = useRef<(HTMLDivElement | null)[]>([]);
-  const [isLgOrLarger, setIsLgOrLarger] = useState(window.innerWidth >= 1024);
+  const [isLgOrLarger, setIsLgOrLarger] = useState(false); // Default to false on server
 
   useEffect(() => {
+    // Set initial value after mount
+    setIsLgOrLarger(window.innerWidth >= 1024);
+
     const handleScroll = () => {
       const section = sectionRef.current;
       if (!section) return;

@@ -26,11 +26,11 @@ const Home = () => {
         <WorkProcess />
       </div>
 
-      <div className="px-[15px] bg-[url('../../public/images/bg-contact.png')] bg-cover bg-center bg-no-repeat">
+      <div className="px-[15px] bg-[url('../../public/images/bg-contact.png')] bg-cover bg-center bg-no-repeat ">
         <Contact />
       </div>
 
-      <div>
+      <div className="px-[15px] mt-[-30px]">
         <Footer />
       </div>
     </div>

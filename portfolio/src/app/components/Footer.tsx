@@ -7,7 +7,7 @@ import { CALL } from "../constants/callLinks";
 
 const Footer = () => {
   return (
-    <div className="bg-black px-[28px] md:px-[35px] lg:px-[50px] xl:px-[65px] pt-[35px] md:pt-[50px] lg:pt-[70px] xl:pt-[90px] pb-[30px] md:pb-[40px] lg:pb-[55px] xl:pb-[70px] rounded-[28px] md:rounded-[36px] lg:rounded-[40px] xl:rounded-[52px]">
+    <div className="bg-black px-[28px] md:px-[32px] lg:px-[38px] xl:px-[60px] pt-[35px] md:pt-[50px] lg:pt-[70px] xl:pt-[90px] pb-[30px] md:pb-[40px] lg:pb-[55px] xl:pb-[70px] rounded-[28px] md:rounded-[36px] lg:rounded-[40px] xl:rounded-[52px]">
       <div className="flex flex-col md:flex-row items-center gap-[25%] mx-[20px] md:mx-[60px] lg:mx-[100px] xl:mx-[138px]">
         <h2 className="text-primary font-logo text-[28px] xl:text-[34px]">
           DEVELOP.ME
