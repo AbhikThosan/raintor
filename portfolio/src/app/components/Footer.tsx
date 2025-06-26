@@ -27,3 +27,34 @@ const Footer = () => {
 };
 
 export default Footer;
+
+Portfolio/
+├── public/              # Static assets (images, favicon, etc.)
+│   ├── favicon.ico      # Favicon for the site
+│   └── images/          # Images used in the portfolio (e.g., project screenshots)
+├── src/                 # Source code directory (optional, depending on setup)
+│   ├── app/             # Next.js App Router pages and layouts
+│   │   ├── layout.tsx   # Root layout with Tailwind CSS and metadata
+│   │   ├── page.tsx     # Homepage component
+│   │   └── globals.css  # Global styles (Tailwind directives)
+│   ├── components/      # Reusable React components
+│   │   ├── ButtonWithIcon.tsx  # Button with icon component
+│   │   ├── ButtonExp.tsx       # Experience button component
+│   │   ├── SocialNavLink.tsx   # Social/navigation link component
+│   │   ├── SocialNavLinkGroup.tsx  # Group of social/navigation links
+│   │   ├── WorkExp.tsx         # Work experience section
+│   │   └── ...                # Other components (e.g., ContactForm)
+│   ├── constants/       # Constant data files
+│   │   ├── experienceInfo.ts  # Experience data (e.g., EXPERIENCE array)
+│   │   ├── socialLinks.ts     # Social link data (e.g., SOCIALLINK array)
+│   │   └── navItems.ts        # Navigation item data (e.g., NAVITEMS array)
+│   ├── hooks/           # Custom hooks (if any)
+│   │   └── useContactForm.ts  # Hook for form handling
+│   ├── styles/          # Additional custom styles (optional)
+│   └── ...              # Other utilities or pages
+├── tailwind.config.js   # Tailwind CSS configuration
+├── next.config.js       # Next.js configuration
+├── package.json         # Project dependencies and scripts
+├── tsconfig.json        # TypeScript configuration
+├── README.md            # This file
+└── ...                  # Other config files (e.g., .eslintrc, .gitignore)
