@@ -1,5 +1,5 @@
 Portfolio Website
-Show Image
+
 A sleek and modern developer portfolio homepage, crafted with precision to showcase your skills and projects. This site is a pixel-perfect implementation of a Figma design, built using cutting-edge technologies to ensure a responsive and reusable component-based architecture.
 🚀 Live Demo
 Visit the live site: https://portfolio-developme.vercel.app/
@@ -17,6 +17,8 @@ Visit the live site: https://portfolio-developme.vercel.app/
 ✅ Mobile-First Responsive Layout - Optimized for all screen sizes, from mobile to desktop
 ✅ Reusable Component Architecture - Modular components for easy maintenance and scalability
 ✅ Smooth Page Transitions - Enhanced user experience with seamless navigation
+✅ Performance Optimized - Fast loading times and optimized assets
+✅ SEO Ready - Built with SEO best practices in mind
 
 📝 Description
 This portfolio website serves as a personal showcase for a developer, highlighting their expertise through a clean, professional design. Built with Next.js app router and Tailwind CSS, it offers a mobile-first approach with smooth transitions and a fully responsive layout. The project emphasizes reusability and fidelity to the original Figma design, making it an excellent example of modern web development practices.
@@ -52,33 +54,30 @@ Open Your Browser
 Navigate to http://localhost:3000 to see the portfolio in action.
 
 📁 Project Structure
-Portfolio/
-├── public/ # Static assets (images, favicon, etc.)
-│ ├── favicon.ico # Favicon for the site
-│ └── images/ # Images used in the portfolio (e.g., project screenshots)
-├── src/ # Source code directory (optional, depending on setup)
-│ ├── app/ # Next.js App Router pages and layouts
-│ │ ├── layout.tsx # Root layout with Tailwind CSS and metadata
-│ │ ├── page.tsx # Homepage component
-│ │ └── globals.css # Global styles (Tailwind directives)
-│ ├── components/ # Reusable React components
-│ │ ├── ButtonWithIcon.tsx # Button with icon component
-│ │ ├── ButtonExp.tsx # Experience button component
-│ │ ├── SocialNavLink.tsx # Social/navigation link component
-│ │ ├── SocialNavLinkGroup.tsx # Group of social/navigation links
-│ │ ├── WorkExp.tsx # Work experience section
-│ │ └── ... # Other components (e.g., ContactForm)
-│ ├── constants/ # Constant data files
-│ │ ├── experienceInfo.ts # Experience data (e.g., EXPERIENCE array)
-│ │ ├── socialLinks.ts # Social link data (e.g., SOCIALLINK array)
-│ │ └── navItems.ts # Navigation item data (e.g., NAVITEMS array)
-│ ├── hooks/ # Custom hooks (if any)
-│ │ └── useContactForm.ts # Hook for form handling
-│ ├── styles/ # Additional custom styles (optional)
-│ └── ... # Other utilities or pages
-├── tailwind.config.js # Tailwind CSS configuration
-├── next.config.js # Next.js configuration
-├── package.json # Project dependencies and scripts
-├── tsconfig.json # TypeScript configuration
-├── README.md # This file
-└── ... # Other config files (e.g., .eslintrc, .gitignore)
+portfolio/
+├── public/
+│ ├── favicon.ico
+│ └── images/
+├── src/
+│ ├── app/
+│ │ ├── layout.tsx
+│ │ ├── page.tsx
+│ │ └── globals.css
+│ ├── components/
+│ │ ├── ButtonWithIcon.tsx
+│ │ ├── ButtonExp.tsx
+│ │ ├── SocialNavLink.tsx
+│ │ ├── SocialNavLinkGroup.tsx
+│ │ └── WorkExp.tsx
+│ ├── constants/
+│ │ ├── experienceInfo.ts
+│ │ ├── socialLinks.ts
+│ │ └── navItems.ts
+│ ├── hooks/
+│ │ └── useContactForm.ts
+│ └── styles/
+├── tailwind.config.js
+├── next.config.js
+├── package.json
+├── tsconfig.json
+└── README.md
